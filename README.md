@@ -1,9 +1,9 @@
-# Fabric Example Mod
+# ObsidianBlocks
 
-## Setup
+A simple Minecraft Fabric mod that adds new obsidian block variants:
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+- Obsidian Slab
+- Obsidian Stairs
+- Obsidian Trapdoor
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Built for Fabric 1.20.1.
