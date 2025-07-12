@@ -14,7 +14,7 @@
   },
 
   "license": "MIT",
-  "icon": "assets/icon.png",
+  "icon": "assets/obsidian_blocks/icon.png",
 
   "environment": "*",
   "entrypoints": {
