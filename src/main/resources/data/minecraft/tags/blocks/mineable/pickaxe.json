@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "obsidian_blocks:obsidian_slab",
+    "obsidian_blocks:obsidian_stairs",
+    "obsidian_blocks:obsidian_trapdoor"
+  ]
+}

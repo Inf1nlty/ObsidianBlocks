@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "obsidian_blocks",
+  "version": "${version}",
+
+  "name": "Obsidian Blocks",
+  "description": "Adds obsidian slabs, stairs and other variants",
+  "authors": [
+    "Inf1nlty"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Inf1nlty/ObsidianBlocks",
+    "sources": "https://github.com/Inf1nlty/ObsidianBlocks"
+  },
+
+  "license": "MIT",
+  "icon": "assets/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.inf1nlty.obsidianblocks.ObsidianBlocks"
+    ],
+    "client": [
+      "com.inf1nlty.obsidianblocks.client.ObsidianBlocksClient"
+    ]
+  },
+  "mixins": [
+    "obsidian_blocks.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric-api": "*",
+    "minecraft": "1.20.1",
+    "java": ">=17"
+  }
+}
